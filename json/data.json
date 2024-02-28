@@ -1,0 +1,21 @@
+[
+  {
+    "id": "p2ZTwVceBWLrd0jIzjTD",
+    "direccion": "Tábanos  Santa fe CP3551",
+    "nombre": "  Nadia Jaquelina ",
+    "sucursal": "Santa Fe",
+    "curso": "Enfermeria y Paramedico",
+    "apellido": " Robledo ",
+    "telefono": "12312356",
+    "email": "nadiarobledo0@gmail.com",
+    "DNI": "12345678",
+    "marca_temporal": {
+      "_seconds": 1708371783,
+      "_nanoseconds": 408000000
+    },
+    "marca_temporal_certificados": {
+      "_seconds": 1708371783,
+      "_nanoseconds": 408000000
+    }
+  }
+]
