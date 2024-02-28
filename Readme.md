@@ -2,7 +2,8 @@
 
 Este script se utiliza para subir datos desde un archivo JSON a una colección en Firebase Firestore.
 
-## Requisitos Previos
+> [!IMPORTANT]
+> Requisitos Previos
 
 - Node.js instalado en tu sistema.
 - Una cuenta de servicio de Firebase con acceso a Firebase Firestore.
@@ -16,7 +17,9 @@ Este script se utiliza para subir datos desde un archivo JSON a una colección e
 
 3. Asegúrate de que la variable `collectionKey` esté configurada con el nombre de la colección en Firestore donde deseas almacenar los documentos.
 
-## Instalación de Dependencias
+> [!CAUTION]
+> Instalación de Dependencias
+> 
 Antes de ejecutar el script, debes instalar las dependencias de necesarias. Puedes hacerlo ejecutando el siguiente comando:
 
 ```
@@ -44,8 +47,8 @@ yarn add firebase-admin
 ```
 node index.js
 ```
-
-## Descripción del Script
+> [!TIP]
+> Descripción del Script
 
 1. **Inicialización de Firebase Admin**: El script importa el módulo `firebase-admin` y utiliza las credenciales del archivo JSON para inicializar la aplicación de Firebase.
 
@@ -59,7 +62,8 @@ node index.js
 
 6. **Mensajes de Éxito**: Se muestra un mensaje en la consola para indicar que cada documento se ha subido correctamente.
 
-## Notas Adicionales
+> [!NOTE]  
+> Notas Adicionales
 
 - Asegúrate de que la estructura de tu archivo JSON coincida con la estructura de los documentos que deseas almacenar en Firestore.
 - Este script asume que los datos están estructurados de tal manera que cada objeto del JSON representa un documento individual en Firestore, y que el campo "id" de cada objeto se puede utilizar como clave del documento.
