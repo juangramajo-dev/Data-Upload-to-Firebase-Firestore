@@ -17,11 +17,24 @@ Este script se utiliza para subir datos desde un archivo JSON a una colección e
 3. Asegúrate de que la variable `collectionKey` esté configurada con el nombre de la colección en Firestore donde deseas almacenar los documentos.
 
 ## Instalación de Dependencias
+Antes de ejecutar el script, debes instalar las dependencias de necesarias. Puedes hacerlo ejecutando el siguiente comando:
 
-Antes de ejecutar el script, debes instalar las dependencias necesarias. Puedes hacerlo ejecutando el siguiente comando:
+```
+npm i
+```
+
+Asegurate de que firebase-admin este instalado en tu package.json, si no lo esta ejecuta el siguiente comando:
+
+con NPM
 
 ```
 npm install firebase-admin
+```
+
+o con Yarn
+
+```
+yarn add firebase-admin
 ```
 
 ## Uso
